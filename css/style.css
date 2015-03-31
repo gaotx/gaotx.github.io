@@ -22,10 +22,14 @@ header {
   left: 0;
   z-index: 300;
   width: 100%;
+  height: 100px;
   min-height: 48px;
   line-height: 48px;
 }
 /* logo */
+.logo-icon {
+  float: left;
+}
 .logo-icon img {
   width: auto;
   height: 80px;
@@ -66,7 +70,7 @@ header .menu {
 .dropdown-menu {
   font-size: 16px;
   margin-top: 5px;
-  min-width: 105px;
+  min-width: 105px;\
 }
 
 .dropdown-menu li a {

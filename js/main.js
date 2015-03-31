@@ -3,14 +3,6 @@ var main = function() {
         $('.dropdown-menu').slideToggle('slow');
     });
 
-    $('.dropdown-toggle').mouseover(function(){
-   		$('.dropdown-menu').stop().slideDown("slow");
-  	});
-  	
-	$('.dropdown-toggle').mouseout(function(){
-		$('.dropdown-menu').slideUp("slow");
-	});
-
     $('.arrow-next').click(function() {
     var currentSlide = $('.active-slide');
     var nextSlide = currentSlide.next();
