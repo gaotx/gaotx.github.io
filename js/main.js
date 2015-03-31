@@ -1,7 +1,16 @@
 var main = function() {
-    $('.dropdown-toggle').click(function() {
+    /* $('.dropdown-toggle').click(function() {
         $('.dropdown-menu').slideToggle('slow');
-    });
+    }); */
+
+    $( '.dropdown' ).hover(
+        function(){
+            $(this).children('.dropdown-menu').slideDown('slow');
+        },
+        function(){
+            $(this).children('.dropdown-menu').slideUp('slow');
+        }
+    );
 
     $('.arrow-next').click(function() {
     var currentSlide = $('.active-slide');

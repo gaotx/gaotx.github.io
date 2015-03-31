@@ -66,7 +66,14 @@ header .menu {
 
 
 /* Dropdown */
-
+.dropdown ul {
+  margin: 0;
+  padding: 0;
+}
+.dropdown ul li {
+  display: inline-block;
+  position: relative;
+}
 .dropdown-menu {
   font-size: 16px;
   margin-top: 5px;
