@@ -225,3 +225,48 @@ header .menu {
 .get-app img {
   height: 40px;
 }
+
+/* Section */
+Section:before {
+  content: "";
+  width: 50%;
+  height: 4px;
+  display: block;
+  margin: 0 auto 100px;
+  background: #eee;
+}
+/* container */
+.container {
+  position: relative;
+  width: 980px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+/* footer */
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background: rgba(178, 178, 178, .2);
+}
+.svg-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.svg-icon.email {
+  background-image: url('../images/icon-mail.svg');
+}
+
+.svg-icon.facebook {
+  background-image: url('../images/icon-facebook.svg');
+}
+
+.svg-icon.github {
+  background-image: url('../images/icon-github.svg');
+}
+
+.svg-icon.linkedin {
+  background-image: url('../images/icon-linkedin.svg');
+}
