@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet'>
-    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+    <link href='css/google.font.css' rel='stylesheet'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/favicon.jpg">
   </head>
   <body>
-    <header>
+    <header class="nav">
       <div class="container">
-        <a href="#" class="logo-icon">
+        <a href="#" class="logo-icon pull-left">
           <img src="images/logo.jpg">
         </a>
 
-        <ul class="menu">
+        <ul class="menu pull-right">
           <li><a href="#about">About</a></li>
           <li><a href="#blog">Blog</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -34,7 +34,6 @@
     </header>
 
     <div class="slider">
-
       <div class="slide active-slide">
         <div class="container">
           <div class="row">
@@ -179,15 +178,18 @@
       </p>
     </section>
 
-    <footer class="footer container">          
-      <a href="mailto:gaotx88@gmail.com"><i class="svg-icon email"></i></a>
-      <a href="http://facebook.com/gaotx"><i class="svg-icon facebook"></i></a>
-      <a href="http://github.com/gaotx"><i class="svg-icon github"></i></a>
-      <a href="http://linkedin.com/in/gaotx"><i class="svg-icon linkedin"></i></a>
-      <br>
-      <div class="footertext">
-        <span class="copyright">© Tianxiang Gao. 2014-<script>document.write((new Date()).getFullYear().toString()); </script>.</span>
-        Hosted by <a href="https://github.com">GitHub.</a> Powered by <a href="http://jekyllrb.com/">Jekyll.</a></div> 
+    <footer class="footer">    
+      <div class="container">      
+        <a href="mailto:gaotx88@gmail.com"><i class="svg-icon email"></i></a>
+        <a href="http://facebook.com/gaotx"><i class="svg-icon facebook"></i></a>
+        <a href="http://github.com/gaotx"><i class="svg-icon github"></i></a>
+        <a href="http://linkedin.com/in/gaotx"><i class="svg-icon linkedin"></i></a>
+        <br>
+        <div class="footertext">
+          <span class="copyright">&copy; 2014-<script>document.write((new Date()).getFullYear().toString()); </script> Tianxiang Gao</span>
+          | Hosted by <a href="https://github.com">GitHub</a> &amp; Powered by <a href="http://jekyllrb.com/">Jekyll.</a>
+        </div>
+      </div> 
     </footer>
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
