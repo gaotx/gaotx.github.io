@@ -1,43 +1,68 @@
+/* Header */
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 300;
-    width: 100%;
-    background: rgba(255,255,255,0.9);
-    min-height: 48px;
-    line-height: 48px;
-    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+  background-color: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid #ddd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 300;
+  width: 100%;
+  min-height: 48px;
+  line-height: 48px;
+}
+/* logo */
+.logo-icon img {
+  height: 70px;
+  width: auto;
+  margin: 2.5px auto;
 }
 
-.container {
-    position: relative;
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 10px
+/* Menu */ 
+
+header .menu {
+  list-style: none;
+  margin: 10px auto;
+  font-size: 16px;
 }
 
-#logo {
-    float: left;
-    padding: 0 10px 0 36px;
-    background: url("../images/LittleLemon.jpg") 0 50% no-repeat;
-    background-size: 32px 32px;
-    font-size: 25px;
-}
-#DataSEED {
-    margin: 0 auto;
+.menu > li {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+
 }
 
-nav {
-    float: right;
-    padding: 0 10px;
+.menu a {
+  color: #898989;
 }
 
-ul {
-    list-style: none;
+.menu li a:link {
+  text-decoration: none;
 }
 
-li {
-    display: inline;
-    margin-right: 40px;
+.menu li a:hover {
+  text-decoration: none;
+  color:rgba(0, 240, 220, 1);
+}
+
+
+/* Dropdown */
+.dropdown ul {
+  margin: 0;
+  padding: 0;
+}
+.dropdown ul li {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-menu {
+  font-size: 16px;
+  margin-top: 5px;
+  min-width: 105px;
+}
+
+.dropdown-menu li a {
+  color: #898989;
+  padding: 6px 20px;
+  font-weight: 300;
 }
