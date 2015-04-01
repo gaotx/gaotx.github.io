@@ -155,15 +155,16 @@
     
     <section id="contact" class="container">
       <h1>Contact</h1>
-<h3 style="text-align: center;">Just wanna say hello? Why not, go right ahead!</h3>
-  <div class="messagebox">
-  <form action="https://formspree.io/gaotx88@gmail.com" method="POST" class="pure-form">
-    <div id="box1"><input type="text" name="email" class="input" placeholder="Your Email Address"></div>
-    <div id="box2"><textarea type="text" name="content" class="input" rows="5" placeholder="Your Message Here"></textarea></div>
-    <input type="text" name="_gotcha" style="display:none">
-    <input type="submit" class="pure-button pure-button-primary" value="Send" style="float: right; margin-right: 10px">
-  </form>
-</div>
+        <h3 style="text-align: center;">Just wanna say hello? Why not, go right ahead!</h3>
+          <div class="messagebox">
+          <form action="form_process.php" method="POST" name="contact_form" class="pure-form">
+            <div id="box1"><input type="text" name="name" class="input" placeholder="Your Name "></div>
+            <div id="box2"><input type="text" name="email" class="input" placeholder="Your Email Address"></div>
+            <div id="box3"><textarea type="text" name="message" class="input" rows="5" placeholder="Your Message Here"></textarea></div>
+            <input type="submit" name="submit" id="submit" value="Submit">
+            <input type="reset" name="Reset" id="reset" value="Reset">
+          </form>
+        </div>
 
     </section>
 
