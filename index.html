@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Data Seed-Gaotx's Blogs</title>
     <link href='css/google.font.css' rel='stylesheet'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -156,16 +155,12 @@
     
     <section id="contact" class="container">
       <h1>Contact</h1>
-        <h3 style="text-align: center;">Just wanna say hello? Why not, go right ahead!</h3>
-          <div class="messagebox">
-          <form action="form_process.php" method="POST" name="contact_form" class="pure-form">
-            <div id="box1"><input type="text" name="name" class="input" placeholder="Your Name "></div>
-            <div id="box2"><input type="text" name="email" class="input" placeholder="Your Email Address"></div>
-            <div id="box3"><textarea type="text" name="message" class="input" rows="5" placeholder="Your Message Here"></textarea></div>
-            <input type="submit" name="submit" id="submit" value="Submit">
-            <input type="reset" name="Reset" id="reset" value="Reset">
+          <form method="POST" action="//formspree.io/gaotx88@gmail.com">
+            <input type="text" name="name" placeholder="Your Name">
+            <input type="email" name="_replyto" placeholder="Your Email Address">
+            <textarea name="message" placeholder="Your Message Here"></textarea>
+            <input type="submit" value="Send">
           </form>
-        </div>
 
     </section>
 
