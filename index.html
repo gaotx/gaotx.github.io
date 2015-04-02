@@ -3,7 +3,7 @@
   <head>
     <link href='css/google.font.css' rel='stylesheet'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <link rel="shortcut icon" href="/images/favicon.jpg">
   </head>
   <body>
@@ -117,52 +117,84 @@
       <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png"></a>
     </div> 
 
-    <section id="about" class="container">
-      <h1>About</h1>
+    <section id="about">
+      <div class="container">
+        <h1>About</h1>
         <p>In 1996 I wrote my first front-end code. In 2005 I co-founded 80beans, one of the first Ruby consultancies in Europe. In 2007 I learned about Sass and haven't written any CSS since. In 2012 I co-founded <a href="https://appsignal.com/">AppSignal</a>, the greatest Rails performance monitoring and error tracking tool since sliced bread. After managing 80beans for over 8 years it was time for a change, and recently I've gone freelance. I'm retaining my position at AppSignal, which remains under active development.</p>
         <p>The best way to learn is by teaching. I have presented at over two dozen (Ruby) <a href="http://lanyrd.com/profile/roy/">conferences</a> all over the world, including notable ones such as SassConf, Madison Ruby, Rocky Mountain Ruby, Feature of Web Apps and CSS Summit. With topics ranging from front-end architecture and advanced Sass to neuromarketing for the web, I'm sure we can find a topic your audience will like. <a href="#contact">Get in touch</a> if you'd like me to speak or give a workshop at your event.</p>
+      </div>
     </section>
 
-    <section id="blog" class="container">
-      <h1>Blog</h1>
-        <p>Here's the latest from my blog. You can find all articles on <a href="/blog">the blog page</a>.</p>
-      <h2>
-        <a href="/blog/2014/remote-rails-front-end-dev-for-hire.html">Remote Rails front-end dev for hire!</a>
-        <time datetime="2014-07-07T10:48:00+02:00">Jul  7</time>
-      </h2>
-      <p>[Updated 2015-03-30] If you're looking for a remote front-end developer that can turn your Rails project up to eleven, look no further. Combine 16 years of front-end experience and over 9 years of experience on the front-end side of Rails, and you get, well... me.</p>
-      <h2>More recent articles</h2>
-      <ul class="mod-blogposts">
-        <li>
-          <a href="/blog/2013/having-fun-with-sass-lists-and-strings.html">Having fun with Sass lists and strings</a>
-          <time datetime="2013-10-16T19:30:00+02:00">Oct 16</time>
-        </li>
-        <li>
-          <a href="/blog/2013/should-you-use-a-sass-mixin-or-extend.html">Should you use a Sass mixin or @extend?</a>
-          <time datetime="2013-07-26T08:44:00+02:00">Jul 26</time>
-        </li>
-        <li>
-          <a href="/blog/2012/the-missing-media-query-element-dimensions.html">The missing media query: element dimensions</a>
-          <time datetime="2012-12-12T09:02:00+01:00">Dec 12</time>
-        </li>
-        <li>
-          <a href="/blog/2012/fostering-a-development-community.html">Fostering a development community</a>
-          <time datetime="2012-10-01T13:28:00+02:00">Oct  1</time>
-        </li>
-        <li><a href="/blog">More articles...</a></li>
-      </ul>
+    <section id="blog">
+      <div class="container">
+        <h1>Blog</h1>
+          <p>Here's the latest from my blog. You can find all articles on <a href="/blog">the blog page</a>.</p>
+        <h2>
+          <a href="/blog/2014/remote-rails-front-end-dev-for-hire.html">Remote Rails front-end dev for hire!</a>
+          <time datetime="2014-07-07T10:48:00+02:00">Jul  7</time>
+        </h2>
+        <p>[Updated 2015-03-30] If you're looking for a remote front-end developer that can turn your Rails project up to eleven, look no further. Combine 16 years of front-end experience and over 9 years of experience on the front-end side of Rails, and you get, well... me.</p>
+        <h2>More recent articles</h2>
+        <ul class="mod-blogposts">
+          <li>
+            <a href="/blog/2013/having-fun-with-sass-lists-and-strings.html">Having fun with Sass lists and strings</a>
+            <time datetime="2013-10-16T19:30:00+02:00">Oct 16</time>
+          </li>
+          <li>
+            <a href="/blog/2013/should-you-use-a-sass-mixin-or-extend.html">Should you use a Sass mixin or @extend?</a>
+            <time datetime="2013-07-26T08:44:00+02:00">Jul 26</time>
+          </li>
+          <li>
+            <a href="/blog/2012/the-missing-media-query-element-dimensions.html">The missing media query: element dimensions</a>
+            <time datetime="2012-12-12T09:02:00+01:00">Dec 12</time>
+          </li>
+          <li>
+            <a href="/blog/2012/fostering-a-development-community.html">Fostering a development community</a>
+            <time datetime="2012-10-01T13:28:00+02:00">Oct  1</time>
+          </li>
+          <li><a href="/blog">More articles...</a></li>
+        </ul>
+      </div>
     </section>
     
-    <section id="contact" class="container">
-      <h1>Contact</h1>
-          <form accept-charset="UTF-8" action="https://formkeep.com/f/99de31e2d90c" method="POST">
-            <input type="hidden" name="utf8" value="✓">
-            <input type="email" name="email" placeholder="Your Email">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="url" name="url" placeholder="Your Website">
-            <button type="submit">Submit</button>
-          </form>
+    <section id="contact">
+      <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contact me today!</h2>
+                    <h3 class="section-subheading text-muted">.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form method="POST" action="//formspree.io/gaotx88@gmail.com">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" name="name">
+                                </div>
+                            </div>
 
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" name="_replyto">
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <textarea rows="5" class="form-control" placeholder="Your Message *" name="message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <button type="submit" class="btn" value="Send">SEND</button>
+                                <input type="hidden" name="_next" value="http://gaotx.com" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+      </div>
     </section>
 
     <footer class="footer">    
