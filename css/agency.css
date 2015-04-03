@@ -118,22 +118,6 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fff;
 }
 
-.btn-circle {
-  width: 70px;
-  height: 70px;
-  margin-top: 15px;
-  padding: 7px 16px;
-  border: 2px solid #fff;
-  border-radius: 100%!important;
-  font-size: 40px;
-  color: #fff;
-  background: 0 0;
-  -webkit-transition: background .3s ease-in-out;
-  -moz-transition: background .3s ease-in-out;
-  transition: background .3s ease-in-out;
-}
-
-
 .btn-xl {
     padding: 20px 40px;
     border-color: rgba(200,200,200,.7);
@@ -202,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: rgba(200,200,200,.7);
+    color: rgba(255,255,255,.7);
 }
 
 
@@ -230,13 +214,13 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     /* color: #fff; */
-    color: rgba(200,200,200,1)
+    color: rgba(255,255,255,1)
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: rgba(200,200,200, .7);
+    color: rgba(255,255,255 , .7);
 }
 
 .navbar-default .navbar-nav>.active>a {
@@ -285,9 +269,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: black;
+    color: rgba(0,0,0,.7);
     background-attachment: scroll;
-    background-image: url(../img/28H.jpg);
+    background-image: url(../img/hero-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
