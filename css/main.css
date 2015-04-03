@@ -1,0 +1,54 @@
+/* general */
+span {
+    color: #4183C4;
+    font-weight: bold;
+}
+/* header */
+.navbar-header .navbar-brand {
+  font-weight: bolder;
+}
+
+/* footer */
+footer {
+  padding: 20px 0;
+  text-align: center;
+  background: rgba(150, 150, 150, .7);
+}
+
+footer a {
+  color: #4183C4;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #0078e7;
+  text-decoration: none;
+}
+
+.svg-icon {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+
+.svg-icon.email {
+  background-image: url('../img/icon/icon-mail.svg');
+}
+
+.svg-icon.facebook {
+  background-image: url('../img/icon/icon-facebook.svg');
+}
+
+.svg-icon.github {
+  background-image: url('../img/icon/icon-github.svg');
+}
+
+.svg-icon.linkedin {
+  background-image: url('../img/icon/icon-linkedin.svg');
+}
+
+.svg-icon.twitter {
+  background-image: url('../img/icon/icon-twitter.svg');
+
+
+}

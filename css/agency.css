@@ -56,6 +56,7 @@ h6 {
     font-weight: 700;
 }
 
+
 .img-centered {
     margin: 0 auto;
 }
@@ -193,6 +194,8 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     /* font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive; */
     color: #fff;
+
+
 }
 
 .navbar-default .navbar-brand:hover,
@@ -226,7 +229,8 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    /* color: #fff; */
+    color: rgba(200,200,200,1)
 }
 
 .navbar-default .nav li a:hover,
@@ -270,6 +274,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
+        /* background: transparent; */
         background-color: #222;
     }
 
@@ -280,9 +285,9 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     text-align: center;
-    color: #fff;
+    color: black;
     background-attachment: scroll;
-    background-image: url(../img/intro-bg.jpg);
+    background-image: url(../img/28H.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -669,8 +674,8 @@ aside.clients img {
 }
 
 section#contact {
-    background-color: #222;
-    background-image: url(../img/map-image.png);
+    /*background-color: #222;*/
+    background-image: url(../img/map.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
