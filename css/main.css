@@ -24,6 +24,22 @@ span {
   transition: background .3s ease-in-out;
 }
 
+/* contact */
+section#contact .section-subheading {
+    color: rgba(255,255,255,1);
+    font-size: 18px
+}
+
+.success .navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+.success .heading {
+  height: 261px;
+  width: 455px;
+}
+
+
 /* footer */
 footer {
   padding: 20px 0;
