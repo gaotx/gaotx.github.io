@@ -31,14 +31,20 @@ section#contact .section-subheading {
 }
 
 .success .navbar-default {
+    padding: 10px;
     border-color: transparent;
     background-color: #222;
 }
-.success .heading {
-  height: 261px;
-  width: 455px;
+
+.success .intro-lead-in a {
+  text-decoration: none;
+  color: rgba(255,255,255,1); 
 }
 
+.success .intro-lead-in a:hover {
+  text-decoration: none;
+  color: rgba(255,255,255,.7); 
+}
 
 /* footer */
 footer {
