@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #337ab7;
 }
 
 p {
@@ -351,7 +351,7 @@ section h3.section-subheading {
     }
 }
 
-.service-heading {
+.academic-heading {
     margin: 15px 0;
     text-transform: none;
 }
@@ -499,7 +499,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #4183C4;
 }
 
 .timeline>li .timeline-image h4 {
