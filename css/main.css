@@ -46,6 +46,10 @@ section#contact .section-subheading {
   color: rgba(255,255,255,.7); 
 }
 
+h2#sucessful {
+  height: 261px;
+}
+
 /* footer */
 footer {
   padding: 20px 0;
