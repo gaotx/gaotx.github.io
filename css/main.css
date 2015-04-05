@@ -8,6 +8,10 @@ span {
   font-weight: bolder;
 }
 
+.dropdown-menu {
+  background: transparent;
+}
+
 /* button */
 .btn-circle {
   width: 70px;
