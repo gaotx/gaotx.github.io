@@ -23,7 +23,7 @@ layout: default
       <ul class="nav navbar-nav">
         <li class="active"><a href="#intro">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#news">News</a></li>
+        <li><a href="#portfolio">News</a></li>
         <li><a href="#contact">Contact</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -163,7 +163,7 @@ layout: default
 	<!-- /Section: about -->
 
 	<!-- Section: news -->
-    <section id="news" class="home-section text-center bg-gray">
+    <section id="portfolio" class="home-section text-center bg-gray">
 		
 		<div class="heading-about">
 			<div class="container">
@@ -173,7 +173,6 @@ layout: default
 					<div class="section-heading">
 					<h2>News</h2>
 					<i class="fa fa-2x fa-angle-down"></i>
-
 					</div>
 					</div>
 				</div>
@@ -181,65 +180,28 @@ layout: default
 			</div>
 		</div>
 		<div class="container">
-		<div class="row">
-			<div class="col-lg-2 col-lg-offset-5">
-				<hr class="marginbot-50">
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-5">
+					<hr class="marginbot-50">
+				</div>
 			</div>
-		</div>
-        <div class="row">
-            <div class="col-sm-3 col-md-3">
-				<div class="wow fadeInLeft" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<img src="img/icons/service-icon-1.png" alt="" />
-					</div>
-					<div class="service-desc">
-						<h5>Print</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-					</div>
+	        <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/imbalance.jpg" class="img-responsive img-framework" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Presentation</h4>
+                        <p class="text-muted">Hybrid Method for Imbalanced Datasets</p>
+                    </div>
                 </div>
-				</div>
-            </div>
-			<div class="col-sm-3 col-md-3">
-				<div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<img src="img/icons/service-icon-2.png" alt="" />
-					</div>
-					<div class="service-desc">
-						<h5>Web Design</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-					</div>
-                </div>
-				</div>
-            </div>
-			<div class="col-sm-3 col-md-3">
-				<div class="wow fadeInUp" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<img src="img/icons/service-icon-3.png" alt="" />
-					</div>
-					<div class="service-desc">
-						<h5>Photography</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-					</div>
-                </div>
-				</div>
-            </div>
-			<div class="col-sm-3 col-md-3">
-				<div class="wow fadeInRight" data-wow-delay="0.2s">
-                <div class="service-box">
-					<div class="service-icon">
-						<img src="img/icons/service-icon-4.png" alt="" />
-					</div>
-					<div class="service-desc">
-						<h5>Cloud System</h5>
-						<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
-					</div>
-                </div>
-				</div>
-            </div>
-        </div>		
+              
+            </div>	
 		</div>
 	</section>
 	<!-- Section: news -->
@@ -316,7 +278,36 @@ layout: default
 	</section>
 	<!-- /Section: contact -->
 
-	
+	<!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    
-
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Hybrid Method for Imbalanced Datasets</h2>
+                            <p class="item-intro text-muted"></p>
+                            <img class="img-responsive" src="img/portfolio/weather_example.png" alt="">
+                            <img class="img-responsive" src="img/portfolio/hybrid.png" alt="">
+                            <p class="justify">The area of imbalanced dataset has been attracted growing attention from both academia and industry, because it poses a serious issues for so many supervised learning problems, that is, most of data are in majority class, while only limited number of data are in minority class. In this case, if all data are used to be training dataset in order to fit a classic classifier, the classifier tends to classify all data to majority class by ignoring minority data as noise. Hence, it is very important to select suitable training dataset in the prepossessing stage for classification of im- balanced dataset. We propose an combination approach based on SMOTE (Synthetic Minority Over-sampling Technique) and instance selection approaches. The experimental results show that the proposed combination approach can help classifiers to achieve better performance. <a href="http://gaotx.com/presentations">Read more.</a></p>
+                            <ul class="list-inline">
+                                <li>Date: April 17, 2015</li>
+                                <li>Speaker: Tianxiang Gao</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
