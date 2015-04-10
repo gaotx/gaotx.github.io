@@ -303,8 +303,8 @@ section h3.section-subheading {
 }
 
 #portfolio .img-framework {
-    height: 212px;
-    width: 293px;
+    height: 100%;
+    width: 100%;
 }
 
 .justify {
