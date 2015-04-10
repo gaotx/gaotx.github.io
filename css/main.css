@@ -426,3 +426,8 @@ footer a:hover {
 .svg-icon.twitter {
   background-image: url('../img/icons/icon-twitter.svg');
 }
+
+/* contact */
+.contact-width {
+    width: 100%;
+}
