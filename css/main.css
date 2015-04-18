@@ -1,5 +1,11 @@
+/* general */
+strong {
+    color: #4183C4;
+}
+
 .navbar-brand h1 {
 	text-transform: capitalize;
+    font-family: none;
 }
 
 .navbar-brand span {
@@ -8,6 +14,10 @@
 
 .intro span {
 	color:#4183C4;
+}
+
+.intro .slogan h2 {
+    text-transform: capitalize;
 }
 
 /* About */
